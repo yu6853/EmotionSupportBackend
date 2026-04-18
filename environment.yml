@@ -1,0 +1,24 @@
+
+name: emotion-support-backend
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - postgresql
+  - pip:
+      - fastapi>=0.115
+      - uvicorn[standard]>=0.30
+      - sqlalchemy>=2.0
+      - psycopg[binary]>=3.2
+      - sqlmodel>=0.0.22
+      - pydantic>=2.7
+      - pydantic-settings>=2.3
+      - python-dotenv>=1.0
+      - httpx>=0.27
+      - alembic>=1.13
+      - redis>=5.0
+      - orjson>=3.10
+      - tenacity>=8.4
+      - pandas>=2.2
+      - pyyaml>=6.0
